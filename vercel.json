@@ -2,7 +2,7 @@
   "rewrites": [
     {
       "source": "/maps/(.*)",
-      "destination": "https://basemaps.cartocdn.com/rastertiles/voyager"
+      "destination": "https://basemaps.cartocdn.com/rastertiles/voyager/$1"
     },
     {
       "source": "/(.*)",
