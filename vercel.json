@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    {
+      "source": "/maps/(.*)",
+      "destination": "https://basemaps.cartocdn.com/rastertiles/voyager"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/"
+    }
+  ]
+}
