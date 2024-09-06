@@ -1,0 +1,11 @@
+.leaflet-container {
+  height: 600px;
+  width: auto;
+  padding: 30px;
+}
+
+.map-icon {
+  background-color: white;
+  border-radius: 20%;
+  padding: 5px;
+}
